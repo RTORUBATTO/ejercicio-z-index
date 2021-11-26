@@ -1,0 +1,50 @@
+div
+{
+	position: absolute;
+	width: 80px;
+}
+
+.d1
+{
+	left: 10px;
+	z-index: 10;
+	background-color: rgba(141, 174, 222, 0.65);
+	border: 2px solid rgba(0, 0, 255, 0.65);
+	top: 10px;
+}
+
+#d1
+{
+	left: 60px;
+	background-color: rgba(141, 174, 222, 0.55);
+	z-index: 0;
+	border: 2px solid rgba(0, 0, 255, 0.55);
+	top: 12px;
+}
+
+.d2
+{
+	left: 110px;
+	background-color: rgba(141, 174, 222, 0.45);
+	z-index: -10;
+	border: 2px solid rgba(0, 0, 255, 0.45);
+	top: 14px;
+}
+
+#d2
+{
+	left: 160px;
+	background-color: rgba(141, 174, 222, 0.35);
+	z-index: -20;
+	border: 2px solid rgba(0, 0, 255, 0.35);
+	top: 16px;
+}
+
+.d3
+{
+	left: 210px;
+	z-index: -30;
+	background-color: rgba(141, 174, 222, 0.25);
+	border: 2px solid rgba(0, 0, 255, 0.25);
+	top: 18px;
+}
